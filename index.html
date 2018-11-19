@@ -7,13 +7,19 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+  <script src="js/jquery.bootstrap.wizard.min.js"></script>
+  <script src="js/dom-i18n.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="manifest" href="site.webmanifest">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -22,7 +28,52 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="wrapper">
+    <aside class="main_sidebar">
+      <ul>
+        <li><i class="fa fa-tv"></i><a href="#">background</a></li>
+        <li><i class="fa fa-bars"></i><a href="#">top bar</a></li>
+        <li><i class="fa fa-bars"></i><a href="#">bottom bar</a></li>
+        <li><i class="fa fa-users"></i><a href="#">characters</a></li>
+        <li><i class="fa fa-font"></i><a href="#">text</a></li>
+        <li><i class="fa fa-crosshairs"></i><a href="#">crosshairs</a></li>
+        <li><i class="fa fa-deaf"></i><a href="#">deaf</a></li>
+        <li><i class="fa fa-desktop"></i><a href="#">desktop</a></li>
+        <li><i class="fa fa-dot-circle-o"></i><a href="#">dot</a></li>
+        <li><i class="fa fa-folder"></i><a href="#">folder</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <div class="thumbnail-smash">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/wallpapers/1.jpg" alt="Card image cap">
+    </div>
+  </div>
+
+  <nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand fa fa-wrench" href="#"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Tools</a></li>
+          <li><a href="#">Menu 1</a></li>
+          <li><a href="#">Menu 2</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 3
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <li><a href="#">Background 1</a></li>
+              <li><a href="#">Background 2</a></li>
+              <li><a href="#">Background 3</a></li>
+            </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
